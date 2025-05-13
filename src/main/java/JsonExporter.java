@@ -12,7 +12,7 @@ public class JsonExporter {
             JsonSerializable annotation = objClass.getAnnotation(JsonSerializable.class);
             String directory = annotation.directory();
 
-            // Crear carpeta si no existe
+
             File dir = new File(directory);
             if (!dir.exists()) {
                 dir.mkdirs();
