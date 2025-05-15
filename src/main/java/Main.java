@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         // Create an instance of the User class
-        User user = new User("Ana", 35);
+        User user = new User("Raquel", 40);
 
 
         try {
